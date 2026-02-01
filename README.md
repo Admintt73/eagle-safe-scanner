@@ -1,2 +1,128 @@
-# eagle-safe-scanner
-飞鹰安全扫描工具 - 无需ROOT权限的轻量级安全检测脚本，支持Termux/Linux/macOS/Win，可检测恶意进程、可疑文件、隐私泄露等风险
+# 🦅 飞鹰安全扫描工具
+
+一个无需ROOT权限的跨平台安全扫描工具，适用于普通用户。
+
+## 📱 支持平台
+- Termux (Android)
+- Linux (Ubuntu, Debian, CentOS, etc.)
+- macOS
+- Windows 10+ (WSL/Git Bash)
+
+## 🚀 快速开始
+
+### 方法1：一键运行
+```bash
+curl -sL https://bit.ly/eagle-scan | bash
+## 🚀 快速开始
+
+### 方法1：一键运行
+```bash
+curl -sL https://bit.ly/eagle-scan | bash
+```
+
+方法2：手动安装
+
+```bash
+# 下载安装脚本
+curl -O https://raw.githubusercontent.com/Admtt73/eagle-safe-scanner/main/install.sh
+
+# 运行安装
+chmod +x install.sh
+./install.sh
+
+# 重新加载配置
+source ~/.bashrc
+
+# 运行工具
+eagle-scan
+```
+
+🔧 功能特色
+
+🛡️ 安全
+
+· 无需ROOT权限
+· 零风险，只读操作
+· 不修改系统文件
+
+📊 功能
+
+1. 快速安全检查 - 系统基础安全状态
+2. 用户文件扫描 - 检查可疑文件
+3. 恶意软件检测 - 识别常见威胁
+4. 网络连接检查 - 查看网络状态
+5. 系统信息查看 - 硬件和系统信息
+6. 隐私泄露检测 - 检查隐私文件
+7. 缓存清理 - 安全清理临时文件
+8. 安全建议 - 个性化安全提示
+
+📝 使用示例
+
+```bash
+# 运行主程序
+eagle-scan
+
+# 快速检查
+eagle-scan quick
+
+# 查看系统信息
+eagle-scan info
+
+# 扫描用户文件
+eagle-scan scan
+```
+
+⚙️ 配置
+
+所有配置存储在 ~/.eagle_safe/ 目录：
+
+· scan.log - 扫描日志
+· reports/ - 扫描报告
+· database/ - 特征数据库
+
+🤝 贡献
+
+欢迎提交Issue和Pull Request！
+
+📄 许可证
+
+MIT License
+
+👨‍💻 开发者
+
+Admtt73 (千枫)
+
+· GitHub: https://github.com/Admtt73
+· 邮箱: admtt73@github.com
+
+⚠️ 免责声明
+
+本工具仅为教育和学习目的开发，不提供任何担保。使用风险自负。
+
+```
+
+
+## 🚀 使用方法
+
+1. **保存所有文件到本地**
+2. **给予执行权限**：
+   ```bash
+   chmod +x eagle-safe.sh install.sh run-eagle.sh
+```
+
+1. 安装运行：
+   ```bash
+   # 安装
+   ./install.sh
+   
+   # 或者直接运行
+   ./eagle-safe.sh
+   ```
+
+✨ 特点
+
+1. 完全安全 - 不需要root，不修改系统
+2. 跨平台 - Termux/Linux/macOS/Windows都支持
+3. 功能全面 - 8大安全功能
+4. 用户友好 - 中文界面，简单易用
+5. 开源免费 - 基于MIT协议
